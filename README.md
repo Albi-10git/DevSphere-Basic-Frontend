@@ -1,36 +1,39 @@
-# FitSync AI Landing Page
+# Fitness Landing Page Projects
 
-A polished one-page FitSync AI landing page built with vanilla HTML and Tailwind-style utility classes.
+This workspace contains two fitness landing page prototypes built with static HTML and CSS styling.
 
 ## Project Contents
 
-- `fitsync.html` — The full FitSync AI landing page with hero section, features, membership plans, expert coaches, BMI calculator, progress stats, and contact information.
+- `FitSync AI.html` — A modern FitSync AI landing page with hero section, smart features, membership plans, expert coaches, progress stats, and a BMI calculator.
+- `Apex Fitness.html` — A classic Apex Fitness landing page with gym programs, trainers, membership details, a BMI calculator, and a clean fitness presentation.
 
 ## Features
 
-- Sticky top navigation with anchor links
-- Responsive layout for desktop and mobile screens
-- AI fitness branding with modern dark theme styling
-- Interactive BMI calculator with client-side JavaScript
-- Membership plans, coach profiles, and community progress stats
-- Fully self-contained static HTML page
+- Sticky navigation with section anchor links
+- Responsive layout for desktop and mobile devices
+- Dark and modern AI fitness theme for `FitSync AI.html`
+- Classic fitness center theme for `Apex Fitness.html`
+- Interactive BMI calculators with client-side JavaScript
+- Sections for programs, membership plans, trainers/coaches, and contact information
+- Fully self-contained static HTML pages with no build step required
 
 ## How to View
 
-1. Open `fitsync.html` in your web browser.
-2. Use the navigation links to jump to each section.
-3. In the BMI section, enter your weight in kilograms and height in centimeters, then click `Calculate Now`.
+1. Open `FitSync AI.html` or `Apex Fitness.html` in your web browser.
+2. Use the top navigation links to jump to each section.
+3. In the BMI sections, enter your weight in kilograms and height in centimeters, then click `Calculate Now`.
 
 ## Notes
 
-- No server or build step is required.
-- The page uses external CDN resources for icons and styling utilities.
-- Ideal for portfolio showcasing or a static fitness landing page prototype.
+- No server or build tools are needed.
+- Both pages are built as standalone static HTML prototypes.
+- External icon and styling assets may be loaded via CDN links.
+- Great for portfolio demos or fitness landing page concepts.
 
 ## Suggested Improvements
 
-- Extract styles into a separate CSS file
-- Add a contact form with validation and submission support
-- Improve accessibility with ARIA roles and labels
-- Add subtle animations or transitions for visual polish
-- Add real app/download buttons if the product grows into a web application
+- Extract repeated CSS into shared stylesheets
+- Add contact forms with validation and submission handling
+- Improve accessibility with ARIA roles, labels, and keyboard support
+- Add animations or transitions for visual polish
+- Add real app/download links for product promotion
